@@ -1,15 +1,10 @@
 {
-  "name": "cypressautomationtesting",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "cypress open",
-    "dashboard" : "cypress run --record --key f7ac584c-e87e-4a66-bc15-a804ba99a206"
-  },
-  "author": "",
-  "license": "ISC",
+  "name": "cypress-automation-testing",
+  "packageManager": "yarn@3.2.3",
   "devDependencies": {
-    "cypress": "^10.7.0"
+    "cypress": "^10.8.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
