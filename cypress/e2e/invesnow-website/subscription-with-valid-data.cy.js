@@ -40,7 +40,7 @@ describe('Working with input', () => {
 
         //input nominal subscription
         cy.get('#minimum-buy').type('100000')
-        cy.contains("Lanjut").should("have.have.class", "btn mt-2 btn-tertiary py-2 btn-secondary btn-block").click()
+        cy.contains("Lanjut").should("have.class", "btn mt-2 btn-tertiary py-2 btn-secondary btn-block").click()
         //cy.get('.btn mt-2 btn-tertiary py-2 btn-secondary btn-block').click()
     });
 });
